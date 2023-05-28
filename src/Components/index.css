@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Light';
+}
+.underline{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #000;
+    margin-top: 100px;
+}
+.navbar img{
+    width: 100px;
+    margin: 20px;
+}
+.navbar p{
+    font-size: 32px;
+    margin: 20px;
+}
+@media only screen and (max-width: 600px){
+    .navbar p{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .navbar img{
+        width: 60px;
+        margin: 10px;
+    }
+    .underline{
+        margin-top: 60px;
+    }
+}
